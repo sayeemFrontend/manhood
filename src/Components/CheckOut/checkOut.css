@@ -1,0 +1,223 @@
+.checkout-payment-detail .address-box-1-header-img {
+  background: #008c8c;
+  padding: 6px;
+  height: 25px;
+  border-radius: 16px;
+  width: 25px;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
+.checkout-payment-detail .address-box-1-header-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+}
+/*
+    .address-box p {
+      font-family: "Exo 2";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 14px;
+    
+      color: #777777;
+    } */
+
+.address-box-1 .address-box-name,
+.address-box-2 .address-box-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.address-box-1 .address-box-address,
+.address-box-2 .address-box-address {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #777777;
+}
+
+/* .checkout-payment-detail p {
+  margin: 0;
+  padding: 0;
+} */
+.checkout-payment-detail .address-box-1 {
+  background: #ffffff;
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  min-height: 145px;
+  position: relative;
+  cursor: pointer;
+}
+.checkout-payment-detail .address-box-1 .tikMark {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.address-box-header p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.checkout-payment-detail .address-box-2 {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.checkout-payment-detail .address-box-3 {
+  background: #e2e2e2;
+  border-radius: 5px;
+  height: 150px;
+  min-width: 100px;
+  max-width: 400px;
+}
+.checkout-payment-detail .address-box-3 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #848484;
+}
+
+.checkout-payment-detail .order-summary-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.checkout-payment-detail .order-summary-r2 .c1 {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #595959;
+  margin-right: 20px;
+}
+.checkout-payment-detail .order-summary-r2 .c2 {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b60000;
+  margin-right: 20px;
+  text-decoration: line-through;
+}
+.checkout-payment-detail .order-summary-r2 .c3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #008c8c;
+}
+
+.checkout-payment-detail .order-summary-r3 .c1 {
+  border: 1px solid #656565;
+  box-sizing: border-box;
+  height: 24px;
+  width: 23px;
+  text-align: center;
+  font-size: 14px;
+}
+.checkout-payment-detail .order-summary-r3 .c2 {
+  border: 1px solid #656565;
+  box-sizing: border-box;
+  width: 50px;
+  height: 24px;
+  text-align: center;
+}
+
+.checkout-payment-detail .order-summary-r3 .c4-btn {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9d0303;
+  border: 0;
+  margin-left: 20px;
+  height: 25px;
+}
+
+.checkout-payment-detail .order-summary-r3 .c4-btn:focus {
+  outline: none;
+}
+
+.address-box-2 .expired-date,
+.address-box-1 .expired-date {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #888888;
+}
+
+.address-box-2 .account-no,
+.address-box-1 .account-no {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.address-box-1 .master-card {
+  width: 230px;
+}
+.address-box-2 .master-card {
+  width: 230px;
+}
+
+.checkout-payment-detail .payment-now {
+  margin-left: 45px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.checkout-payment-detail .payment-now button {
+  width: 147px;
+  height: 45px;
+  border: 0;
+  background: #008c8c;
+  border-radius: 5px;
+  color: white;
+}
+
+.checkout-payment-detail .payment-now button:focus {
+  outline: none;
+}
+
+.checkout-payment-detail {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+}

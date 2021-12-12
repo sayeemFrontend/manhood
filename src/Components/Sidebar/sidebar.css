@@ -1,0 +1,74 @@
+/* .sideBar {
+  background-color: white;
+  width: 244px;
+  position: absolute;
+
+  transition: left 2s;
+} */
+
+.sidebarOff {
+  background-color: white;
+  position: absolute;
+  width: 244px;
+  left: -244px;
+  transition-property: left;
+  transition-duration: 0.5s;
+  height: 590px;
+}
+.sidebarShow {
+  background-color: white;
+  width: 244px;
+  position: absolute;
+  left: 0;
+  transition-property: left;
+  transition-duration: 0.5s;
+  height: 590px;
+}
+
+.sidebarOff .categories,
+.sidebarShow .categories,
+li {
+  margin-bottom: 5px;
+}
+
+.sidebarOff .categories,
+.sidebarShow .categories,
+span {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.sidebarOff .categories span:hover,
+.sidebarShow .categories span:hover {
+  color: #008c8c;
+}
+.emergencyCall {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #008c8c;
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+}
+
+.categories .mainList {
+  text-decoration: none;
+  color: inherit;
+}
+.categories .subList {
+  text-decoration: none;
+  color: inherit;
+}
+
+.downButton {
+  background-color: #008c8c;
+  border: 0;
+  border-radius: 3px;
+  outline: none !important;
+}
+
+.downButton button:focus {
+  outline: none !important;
+}

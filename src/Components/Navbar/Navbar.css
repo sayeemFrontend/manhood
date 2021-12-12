@@ -1,0 +1,89 @@
+.navBar {
+  background: #fff;
+  box-shadow: 0px 4px 4px rgb(124 124 124 / 15%);
+}
+.navBar .inputContainer {
+  border: 1px solid rgb(0 140 140 / 70%);
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: 33px;
+  max-width: 420px;
+  min-width: 150px;
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .navBar .inputContainer {
+    width: 70%;
+  }
+}
+
+.navBar .searchIcon {
+  margin: 8px;
+}
+
+/*common*/
+
+/*change able*/
+.navBar .buttonContainer {
+  width: 30%;
+  min-width: 70px;
+  border-radius: 16px;
+  background-color: #008c8c;
+  border-color: #008c8c;
+  overflow: hidden;
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navBar nav > div > ul:nth-child(3) {
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.navBar nav > div > ul:nth-child(4) {
+  margin-right: 2%;
+  margin-left: 3%;
+}
+
+.navBar .lastGroup li {
+  font-size: 8px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  margin-right: 10px;
+}
+
+.navBar .badgeCustom {
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  right: -4px;
+  border-radius: 13px;
+  background: yellowgreen;
+}
+.navBar .dotbarDisply {
+  background-color: mintcream;
+  width: 151px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.navBar li > a {
+  color: #606060 !important;
+}
+
+.navBar div ul:nth-child(3) li > a:hover {
+  color: #008c8c !important;
+  /* font-size: 15px; */
+}
+
+.navBar div ul:nth-child(4) li > a:hover {
+  color: #008c8c !important;
+  /* font-size: 15px; */
+}

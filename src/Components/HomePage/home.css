@@ -1,0 +1,232 @@
+.homeBody {
+  background-color: #f0f0f0;
+  padding-bottom: 150px;
+}
+
+.fifty-off {
+  position: absolute;
+  left: 124px;
+  top: 36px;
+  font-family: "Exo 2";
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}
+.new-year {
+  position: absolute;
+  left: 129px;
+  top: 106px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.winter-sale {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 86px;
+
+  color: #ffffff;
+}
+
+.grab-it-now {
+  position: absolute;
+  right: 70px;
+  bottom: 35px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+@media (max-width: 576px) {
+  .grab-it-now {
+    right: 34px;
+    bottom: -5px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .winter-sale {
+    right: 15px;
+    bottom: 14px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .fifty-off {
+    left: 28px;
+    top: -6px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .new-year {
+    left: 33px;
+    top: 43px;
+    font-size: 15px;
+  }
+}
+
+.frab-next-icon {
+  margin-right: 17px;
+  margin-top: 12px;
+}
+.featuredProduct .featureText {
+  margin: 20px 25px;
+}
+
+.featuredProduct .featureText p:nth-child(1) {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4d4d4d;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.featuredProduct .featureText p:nth-child(2) {
+  font-family: "Exo 2";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 15.6px;
+  color: #008c8c;
+  margin: 0;
+}
+.title-text {
+  font-family: "Exo 2";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43.2px;
+  margin-top: 46px;
+  margin-bottom: 36px;
+  color: #000000;
+}
+.availableShop .nextButton,
+.popularBrand .nextButton {
+  margin-top: 46px;
+  margin-bottom: 36px;
+}
+.availableShop .nextButton span,
+.popularBrand .nextButton span {
+  font-family: "Exo 2";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 43.2px;
+  color: #000000;
+}
+.availableShop .nextButton button,
+.popularBrand .nextButton button {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #008c8c;
+  border-radius: 5px;
+  width: 130px;
+  height: 45px;
+}
+
+.homeBody .popularBrand .buttonContainer,
+.homeBody .availableShop .buttonContainer,
+.homeBody .trendingBottomware .buttonContainer,
+.homeBody .trendingTopware .buttonContainer,
+.homeBody .trendingFootware .buttonContainer {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.homeBody .popularBrand .buttonEdit,
+.homeBody .availableShop .buttonEdit,
+.homeBody .trendingBottomware .buttonEdit,
+.homeBody .trendingTopware .buttonEdit,
+.homeBody .trendingFootware .buttonEdit {
+  color: #000000;
+  border-radius: 5px;
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  background: rgb(21 213 213 / 30%);
+}
+
+.trending-image img {
+  width: 100%;
+}
+
+.homeBody .trendingBottomware .head,
+.homeBody .trendingTopware .head,
+.homeBody .trendingFootware .head {
+  font-family: "Exo 2";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.14px;
+  color: #232323;
+  padding: 0;
+  margin: 0;
+}
+
+.homeBody .trendingBottomware .subHead,
+.homeBody .trendingTopware .subHead,
+.homeBody .trendingFootware .subHead {
+  font-family: "Exo 2";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 0;
+  color: rgb(142 142 142 / 50%);
+}
+
+@media (max-width: 768px) {
+  .featuredProduct .featureText {
+    margin: 8px;
+  }
+  .featuredProduct .featureText p:nth-child(1) {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeBody .trendingTopware .buttonEdit,
+  .homeBody .trendingFootware .buttonEdit,
+  .homeBody .trendingBottomware .buttonEdit {
+    font-size: 10px;
+    line-height: 0.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .homeBody .popularBrand .buttonEdit {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

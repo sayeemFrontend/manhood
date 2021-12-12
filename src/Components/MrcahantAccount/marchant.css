@@ -1,0 +1,321 @@
+.machant-account-picture {
+  padding-top: 30px;
+}
+
+/* marchant account signup 01 loadding*/
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  background: #f4ffffc2;
+  padding-bottom: 40px;
+}
+
+.marchant-account-register {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-left: 36px;
+  color: #797979;
+}
+.marchant-account-register span {
+  color: #005c5c;
+  padding-left: 2px;
+}
+
+.marchant-account-signup-picture {
+  padding-top: 93px;
+  position: relative;
+}
+
+.marchant-account-signup-picture .img-2 {
+  position: absolute;
+  top: -8px;
+  right: 135px;
+}
+
+.marchant-account-signup-sub-header {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #696969;
+  padding-top: 5px;
+}
+
+/* marchant account signup page 02 loadding*/
+
+.marchant-signup-condition .custom-checkbox input {
+  width: 14px;
+  height: 43px;
+  margin-right: 7px;
+}
+
+.marchant-signup-condition .custom-checkbox p {
+  padding-top: 15px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #454545;
+}
+.marchant-signup-condition .custom-checkbox span {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #008c8c;
+}
+
+/* from here marchantDashboard page loadding*/
+
+.marchant-dashboard .mar-row-1 {
+  width: 208px;
+  height: 45px;
+  margin-top: 22px;
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.marchant-dashboard .mar-row-1 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: revert;
+}
+
+.marchant-dashboard .mar-row-3 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.marchant-dashboard .mar-row-4 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #7e7e7e;
+}
+
+.marchant-dashboard .mar-row-5 button {
+  background: #ffd983;
+  border-radius: 5px;
+  height: 53px;
+  width: 286px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #000000;
+  border: 0;
+}
+.marchant-dashboard .mar-row-5 button:focus {
+  outline: none;
+}
+
+.marchant-dashboard-profile {
+  height: 37px;
+  background: #008c8c;
+  border-radius: 5px;
+}
+
+.marchant-dashboard-profile p {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-top: 9px;
+}
+
+.marchant-dashboard .profile-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.marchant-dashboard .profile-sub-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #424242;
+}
+
+.setting-list .set-list-row li {
+  list-style: none;
+  border: 0;
+}
+
+.setting-list .set-list-col-2 {
+  background-color: inherit;
+}
+
+.setting-list .set-list-col-1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #5c5c5c;
+  background-color: inherit;
+}
+
+/* .setting-list .set-list-row .set-list-col-1 {
+      float: right;
+    } */
+
+/* .setting-list .set-list-row .set-list-col-2 {
+      float: left;
+      margin-right: 25px;
+    } */
+
+.setting-list .set-list-col-2 img {
+  border-radius: 15px;
+  background: white;
+  padding: 5px;
+}
+
+.marchant-dashboard {
+  background: #ececec;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.custom-marchant-conainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-right: 30px;
+}
+
+.marchant-dashboard-profile-body {
+  /* background: rgba(0, 140, 140, 0.19); */
+  background-color: #008c8c30;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 17px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+/* from here machant Dashboard loadding*/
+
+.march-dashboard-02-row-3-cart {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 70px;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #008c8cde;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-sub-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8e8e8ecc;
+}
+
+.march-dashboard-02-row-3-cart .money-left {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  color: #000000;
+}
+.march-dashboard-02-row-3-cart .money-right {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #008c8c;
+}
+.march-dashboard-02-row-3-cart .money-middle {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.march-dashboard-02-row-3-cart .march-dashboard-02-img {
+  text-align: center;
+  position: relative;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-02-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}

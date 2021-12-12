@@ -1,0 +1,2414 @@
+@media screen and (max-width: 600px) {
+  [class*="col-md-"] {
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: gray;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(red, yellowgreen);
+  height: 20px;
+  border-radius: 20px;
+}
+
+/* :any-link :hover {
+  color: red;
+  font-size: 20px;
+} */
+/* body::-webkit-scrollbar {
+  width: 100px;
+} */
+
+/* body {
+  scroll-behavior: smooth;
+  scrollbar-width: 20px;
+} */
+/* body {
+  scrollbar-width: thin;
+} */
+
+.family347 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+}
+.family547 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.family647 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+/* .color8c8c {
+  color: #008c8c !important;
+}
+.color7272 {
+  color: #727272 !important;
+}
+
+.color6060 {
+  color: #606060 !important;
+} */
+
+.customButton {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: inherit;
+  color: inherit;
+}
+.customButton:hover,
+.customButton:active,
+.customButton:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* common */
+.inputField {
+  border: 0;
+  width: 100%;
+}
+.inputField:focus {
+  outline: none;
+}
+
+.itemCart-1 {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  padding: 0px;
+}
+.itemCart-1 a {
+  text-decoration: none;
+}
+.itemCart-2 {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+.itemCart-2 a {
+  text-decoration: none;
+}
+.itemCart-3 {
+  background-color: white;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .itemCart-3 {
+    padding: 12px;
+  }
+}
+
+.itemCart-3 a {
+  text-decoration: none;
+}
+
+/* changeAble*/
+/* .navBar {
+  background: #fff;
+  box-shadow: 0px 4px 4px rgb(124 124 124 / 15%);
+}
+.navBar .inputContainer {
+  border: 1px solid rgb(0 140 140 / 70%);
+  box-sizing: border-box;
+  border-radius: 25px;
+  height: 33px;
+  max-width: 420px;
+  min-width: 150px;
+  width: 30%;
+}
+
+.navBar .searchIcon {
+  margin: 8px;
+}
+
+/*common*/
+
+/*change able*/
+.navBar .buttonContainer {
+  width: 30%;
+  min-width: 70px;
+  border-radius: 16px;
+  background-color: #008c8c;
+  border-color: #008c8c;
+  overflow: hidden;
+  max-width: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navBar nav > div > ul:nth-child(3) {
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.navBar nav > div > ul:nth-child(4) {
+  margin-right: 2%;
+  margin-left: 3%;
+}
+
+.navBar .lastGroup li {
+  font-size: 8px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.05);
+  margin-right: 10px;
+}
+
+*/
+
+/* Side Bar*/
+
+.login-body {
+  display: flex;
+  justify-content: center;
+  background: #f4ffffc2;
+  padding-bottom: 40px;
+}
+.login-form-container {
+  width: 1000px;
+  height: 558px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding-top: 61px;
+  padding-left: 44px;
+  padding-bottom: 80px;
+  margin-top: 50px;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  position: relative;
+}
+.login-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  color: #000000;
+}
+.login-sub-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #626262;
+}
+
+.custom-input-field {
+  width: 344px;
+  height: 42px !important;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+}
+
+.custom-input-field:focus {
+  background-color: #ffffff;
+  border-color: #e7e7e7;
+  outline: 0;
+  box-shadow: none;
+}
+
+.custom-input-field::placeholder {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #767676;
+  position: absolute;
+  top: 0;
+}
+.forgot-password {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #008c8c;
+}
+
+.login-form-container .btn-background {
+  background-color: #008c8c;
+  width: 100%;
+  height: 42px;
+  border-radius: 5px;
+  padding: 0;
+  color: white;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+/* .login-form-container .btn-background:focus,
+:hover {
+} */
+
+.account-register {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 40px;
+  margin-left: 88px;
+  color: #000000;
+}
+.account-register span {
+  color: #005c5c;
+  padding-left: 2px;
+}
+
+/* from here signup page loading*/
+
+.signup-form-2nd-col {
+  margin-top: 90px;
+  position: relative;
+}
+
+.login-form-container label {
+  color: #999;
+  transform: translate(13px, -34px);
+  transition: transform 0.3s;
+  position: absolute;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: text;
+}
+.login-form-container input:focus + label,
+.login-form-container input:not(:placeholder-shown) + label {
+  color: #005c5c;
+  transform: translate(13px, -54px);
+}
+
+/* from here loading style fo Order-Place page*/
+/* 
+.order-place-body {
+  background-color: #efefef;
+}
+.order-place-page {
+  margin-top: 32px;
+  margin-left: 39px;
+}
+.custom-order-table {
+  background-color: #fff;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.table-header-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-left: 5px;
+  margin-top: 36px;
+}
+
+.order-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.custom-1row-2col {
+  vertical-align: middle;
+}
+
+.list-group-item.borderless {
+  border: none !important;
+  font-family: "Exo 2";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4a4a4a;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.list-group-border {
+  border: 1px solid #4a4a4a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 75px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.list-group-item.borderless-2nd {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  border: 0;
+  padding: 6px;
+}
+
+.order-amount {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #141414;
+}
+.order-remove {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: white;
+  border-color: white;
+
+  color: #b60000;
+}
+
+.order-remove:focus,
+.order-remove:hover,
+.order-remove:active,
+.order-remove:active:focus {
+  background-color: white;
+  border-color: white;
+  box-shadow: none;
+  color: #b60000;
+  border-color: white;
+}
+.custom-header {
+  background: #d2ffff;
+  border-radius: 10px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 50px;
+  margin-top: 13px;
+}
+.custom-header-position {
+  padding-left: 13px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 40px;
+}
+.table-3rd-col {
+  text-align: center;
+  vertical-align: middle;
+} */
+
+/* for order place card */
+
+.selected-item-card {
+  background: #d2ffff;
+  border-radius: 5px;
+  padding-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 20px;
+}
+.custom-list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-list-items li {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #d2ffff;
+  margin-bottom: 5px;
+}
+
+.list-group-item-text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #008c8c;
+}
+
+.list-group-item-number {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.item-card-order-detail {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #aeaeae;
+}
+.list-group-item-2nd-text {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #555555;
+}
+.list-group-item-total-text {
+  margin-bottom: 9px;
+}
+.custom-list-items.border-up {
+  border-top: 2px solid #aeaeae;
+  padding: 0;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+.apply-coupon-code {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.input-code-button {
+  display: flex;
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.input-code-button input {
+  width: 100%;
+  height: 40px;
+  background: #d2ffff;
+  box-sizing: border-box;
+  border: 0;
+  margin: 1px;
+}
+.input-code-button input:focus {
+  outline: 0;
+}
+.custom-btn-code {
+  width: 82px;
+  background: #008c8c;
+  border: 0;
+  color: white;
+}
+.custom-btn-code:focus {
+  outline: none;
+}
+
+.custom-checkout {
+  padding-top: 150px;
+  padding-bottom: 35px;
+}
+
+.custom-checkout-btn {
+  width: 100%;
+  background: #008c8c;
+  border: 0;
+  color: white;
+  height: 40px;
+  background: #008c8c;
+  border-radius: 5px;
+}
+.custom-checkout-btn:focus {
+  outline: none;
+}
+
+/* from here payment-page loading...*/
+
+.custom-payment-page {
+  background-color: #fff;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-top: 85px;
+  padding-left: 40px;
+  padding-right: 45px;
+  padding-bottom: 80px;
+}
+
+.just-for-block-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 31px;
+  background: #008c8c;
+  border-radius: 5px;
+}
+.table-header-title-total-amount {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #383838;
+}
+
+.total-payment-sub-header {
+  padding-left: 64px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.total-payment-sub-header p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #0a5a08;
+}
+.total-payment-amount {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #008c8c;
+}
+
+.custom-payment-form input {
+  width: calc(100% - 61px);
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 30px;
+  height: 55px;
+}
+
+.custom-payment-form input:focus {
+  outline: none;
+}
+
+.custom-payment-form input::placeholder {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #898989;
+}
+
+.payment-conditions span {
+  color: #000000;
+  font-size: 20px;
+}
+
+.payment-conditions li {
+  border: 0;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.payment-conditions .custom-checkbox input {
+  width: 14px;
+  height: 43px;
+  margin-right: 7px;
+}
+
+.payment-conditions .custom-checkbox p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.payment-conditions .custom-checkbox span {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 43px;
+
+  color: #008c8c;
+}
+
+.payment-page-button {
+  padding-top: 25px;
+}
+.payment-page-button button {
+  height: 45px;
+  width: 36%;
+  max-width: 300px;
+  min-width: 60px;
+}
+.payment-page-button .confirm {
+  background: #008c8cfa;
+  border: 1px solid #008c8c8f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+}
+.payment-page-button .back {
+  background: #008c8c8f;
+  border: 1px solid #008c8c8f;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.payment-page-button button:focus {
+  outline: none;
+}
+.custom-modal-dialog {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 390px;
+  height: 365px;
+}
+.modal-order-confirm {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.custom-modal-dialog img {
+  margin-top: 90px;
+  width: 30;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+.payment-page-border-up {
+  border-top: 2px solid #aeaeae;
+  padding: 0;
+  padding-top: 5px;
+  margin-top: 20px;
+  padding-bottom: 110px;
+}
+
+/* from here Marchant account loadding*/
+.machant-account-picture {
+  padding-top: 30px;
+}
+
+/* marchant account signup 01 loadding*/
+/* 
+.marchant-account-register {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-left: 36px;
+  color: #797979;
+}
+.marchant-account-register span {
+  color: #005c5c;
+  padding-left: 2px;
+}
+
+.marchant-account-signup-picture {
+  padding-top: 93px;
+  position: relative;
+}
+
+.marchant-account-signup-picture .img-2 {
+  position: absolute;
+  top: -8px;
+  right: 135px;
+}
+
+.marchant-account-signup-sub-header {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #696969;
+  padding-top: 5px;
+} */
+
+/* marchant account signup page 02 loadding*/
+
+/* .marchant-signup-condition .custom-checkbox input {
+  width: 14px;
+  height: 43px;
+  margin-right: 7px;
+}
+
+.marchant-signup-condition .custom-checkbox p {
+  padding-top: 15px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #454545;
+}
+.marchant-signup-condition .custom-checkbox span {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #008c8c;
+} */
+
+/* from here marchantDashboard page loadding*/
+
+/* .marchant-dashboard .mar-row-1 {
+  width: 208px;
+  height: 45px;
+  margin-top: 22px;
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.marchant-dashboard .mar-row-1 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+  margin-top: revert;
+}
+
+.marchant-dashboard .mar-row-3 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.marchant-dashboard .mar-row-4 p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #7e7e7e;
+}
+
+.marchant-dashboard .mar-row-5 button {
+  background: #ffd983;
+  border-radius: 5px;
+  height: 53px;
+  width: 286px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #000000;
+  border: 0;
+}
+.marchant-dashboard .mar-row-5 button:focus {
+  outline: none;
+}
+
+.marchant-dashboard-profile {
+  height: 37px;
+  background: #008c8c;
+  border-radius: 5px;
+}
+
+.marchant-dashboard-profile p {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #ffffff;
+  padding-top: 9px;
+}
+
+.marchant-dashboard .profile-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.marchant-dashboard .profile-sub-name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #424242;
+}
+
+.setting-list .set-list-row li {
+  list-style: none;
+  border: 0;
+}
+
+.setting-list .set-list-col-2 {
+  background-color: inherit;
+}
+
+.setting-list .set-list-col-1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 26px;
+
+  color: #5c5c5c;
+  background-color: inherit;
+} */
+
+/* .setting-list .set-list-row .set-list-col-1 {
+    float: right;
+  } */
+
+/* .setting-list .set-list-row .set-list-col-2 {
+    float: left;
+    margin-right: 25px;
+  } */
+
+/* .setting-list .set-list-col-2 img {
+  border-radius: 15px;
+  background: white;
+  padding: 5px;
+}
+
+.marchant-dashboard {
+  background: #ececec;
+  padding-top: 25px;
+}
+
+.custom-marchant-conainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-right: 30px;
+} */
+
+/* .marchant-dashboard-profile-body {
+  background-color: #008c8c30;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 17px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+} */
+
+/* from here machant Dashboard loadding*/
+/* 
+.march-dashboard-02-row-3-cart {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 15px;
+  margin-bottom: 70px;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #008c8cde;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-sub-header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8e8e8ecc;
+}
+
+.march-dashboard-02-row-3-cart .money-left {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  color: #000000;
+}
+.march-dashboard-02-row-3-cart .money-right {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #008c8c;
+}
+.march-dashboard-02-row-3-cart .money-middle {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 6px;
+  line-height: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  text-decoration: line-through;
+}
+
+.march-dashboard-02-row-3-cart .march-dashboard-02-img {
+  text-align: center;
+  position: relative;
+}
+
+.march-dashboard-02-row-3-cart .march-dash-02-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+} */
+
+/* order-checkout page loading*/
+
+.order-checkout-item-name p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.order-checkout-header p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.order-checkout-row-underline {
+  border-bottom: 1px solid #aeaeae;
+  margin-top: 10px;
+}
+
+.order-checkout-borderless {
+  border: none !important;
+  font-family: "Exo 2";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4a4a4a;
+  padding-left: 0px;
+}
+
+.order-checkout-total-box p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.order-checkout-button button {
+}
+
+.order-checkout-button button:focus {
+  outline: none;
+}
+
+/* chat box is loadding*/
+
+.custom-chat-box-container {
+  /* background: #ffffff; */
+  border-radius: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: brown;
+}
+
+.chat-box-bar-title span {
+  width: 5px;
+  height: 5px;
+  background: #37c414;
+  border-radius: 50%;
+  border-radius: 2.5px;
+  display: inline-block;
+}
+.chat-box-bar {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box-chatting-start {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #979797;
+}
+.chat-box-body {
+  height: 350px;
+}
+
+.chat-box-msg-receive {
+  background: #0ca3a3;
+  border-radius: 15px 0px 15px 15px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 170px;
+}
+
+/* .chat-box-msg-receive p {
+  background: #0ca3a3;
+  border-radius: 15px 0px 15px 15px;
+  color: white;
+  text-align: center;
+
+  padding: 10px;
+} */
+
+.chat-box-msg-send {
+  background: #bdffff;
+  border-radius: 15px 0px 15px 15px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  width: 170px;
+}
+/* .chat-box-msg-send p {
+  background: #bdffff;
+  border-radius: 0px 15px 15px 15px;
+  color: black;
+  text-align: center;
+
+  padding: 10px;
+} */
+
+.chat-box-input {
+  border: 1px solid #008c8c7a;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.chat-box-input input {
+  border: 0;
+  width: 100%;
+}
+.chat-box-input input:focus {
+  outline: none;
+}
+
+.chat-box-input input::placeholder {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #666666;
+}
+
+/* .custom-chat-box-input {
+  padding-top: 200px;
+  padding-bottom: 40px;
+} */
+
+/* checkout-payment-detials loadimg*/
+
+/* common form container classs*/
+
+/* add new adress loading*/
+
+.addNewAddressHeader {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.customFormContainer label {
+  color: #999;
+  transform: translate(13px, -34px);
+  transition: transform 0.3s;
+  position: absolute;
+  background-color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: text;
+}
+
+.customFormContainer input:focus + label,
+.customFormContainer input:not(:placeholder-shown) + label {
+  color: #005c5c;
+  transform: translate(13px, -54px);
+}
+
+.customFormContainer .customInputField {
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 41px;
+}
+
+.customAddAddressConatiner {
+  width: 511px;
+  margin-top: 220px;
+}
+
+.customInputField:focus {
+  background-color: #ffffff !important;
+  border: 1px solid #9b9b9b !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.customInputField::placeholder {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #969696;
+}
+
+.addAddessBtn button {
+  width: 130px;
+  height: 40px;
+  background: #008c8c;
+  border-radius: 5px;
+  border: 0;
+  float: right;
+  margin-top: 40px;
+  color: white;
+}
+
+.addAddessBtn button:focus {
+  outline: none;
+}
+
+/* fill In The Deatails loadding*/
+
+.fillInTheDetails {
+  background-color: #ececec;
+  padding: 80px 165px;
+}
+
+.fillInTheDetailsContainer {
+  background: #ffffff;
+  border-radius: 15px;
+  padding-top: 40px;
+}
+
+@media (max-width: 786px) {
+  .fillInTheDetails {
+    padding: 0;
+  }
+}
+
+.customInputFieldBackColor {
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 41px;
+  background: rgba(0, 140, 140, 0.5);
+  border-radius: 5px;
+}
+
+.customInputFieldBackColor:focus {
+  box-shadow: none;
+}
+
+/* .uploadBox-1 p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #008c8c;
+} */
+
+/* .uploadBox-1,
+.uploadBox-2,
+.uploadBox-3 input {
+  opacity: 0;
+  width: 200px;
+} */
+
+.uploadBox-1,
+.uploadBox-2,
+.uploadBox-3,
+label + p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 11px;
+  color: #666666;
+}
+
+/* .uploadBox-1,
+.uploadBox-2,
+.uploadBox-3 {
+ 
+} */
+
+.uploadBox-1,
+.uploadBox-2,
+.uploadBox-3,
+label {
+  cursor: pointer;
+}
+.uploadBox-1 {
+  background: rgba(0, 140, 140, 0.05);
+  border-style: dashed;
+  border-color: #008c8c;
+  padding: 20px 20px 0 20px;
+  width: 200px;
+  cursor: default;
+  /* width: 181px; */
+  /* position: relative; */
+}
+.uploadBox-3 p,
+.uploadBox-2 p {
+  color: #8e8e8e;
+}
+
+.uploadBox-2,
+.uploadBox-3 {
+  background: rgba(0, 140, 140, 0.05);
+  border: dashed #8e8e8e;
+  padding: 20px 20px 0 20px;
+  width: 200px;
+  cursor: default;
+}
+
+.fillInTheDetails .addPhoto p {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 17px;
+
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.fillInTheDetails .mustSelectPhoto p {
+  font-family: " Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #008c8c;
+  margin-top: 20px;
+}
+
+.fillInTheDetails .contactDetails p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.fillInTheDetailsBtn button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #008c8c;
+  width: 100px;
+  background: rgba(101, 255, 255, 0.5);
+  border-radius: 5px;
+  border: 0;
+  width: 320px;
+  height: 50px;
+  margin-top: 80px;
+}
+
+.fillInTheDetailsBtn button:focus {
+  outline: none;
+}
+
+/*fillter page loading*/
+
+.filter-page .r1 {
+  background: #ffffff;
+  border: 1px solid #696969;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.filter-page .r1 .c1,
+.filter-page .r1 .c3 {
+  background: #e7ffff;
+}
+
+.filter-page .r1 .c2,
+.filter-page .r1 .c4,
+.filter-page .r1 .c5 {
+  background: #ffffff;
+}
+.filter-page .r1 li {
+  list-style: none;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #3d3d3d;
+}
+
+.filter-page .r1 .c1,
+.filter-page .r1 .c2,
+.filter-page .r1 .c3,
+.filter-page .r1 .c4,
+.filter-page .r1 .c5 {
+  padding: 30px;
+}
+
+.filter-page .r1 .filterPageHeader {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.filter-page .filterPageBtn button {
+  width: 109px;
+  height: 41px;
+
+  background: #008c8c;
+  border-radius: 5px;
+  border: 0;
+  color: #ffffff;
+}
+
+.filter-page .filterPageBtn button:focus {
+  outline: none;
+}
+
+/* ProductViewer age loading*/
+/* 
+.productViewer .productViewHeader {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+.productViewer .productViewPara {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #5b5b5b;
+}
+
+.productViewerImgWraper {
+  background: rgb(234 255 255 / 50%);
+  border-radius: 0px 0px 227px 227px;
+  text-align: center;
+}
+.productViewerImgWraper img {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.productViewerMinImg img {
+  width: 25%;
+}
+
+.nextPreviousIcon .nextIcon {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #464646;
+}
+
+.nextPreviousIcon .previousIcon {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: -15px;
+  color: #c1c1c1;
+}
+
+.productViewer .r1 .c2 {
+  padding: 50px 40px;
+}
+.productViewer .r1 .c2 .ratingItem {
+  background: #008c8c;
+  border-radius: 5px;
+  max-width: 260px;
+}
+.productViewer .r3 .ratingItem p,
+.productViewer .r1 .c2 .ratingItem p {
+  margin: 0;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.productViewer .r3 .raitingDescription,
+.productViewer .r1 .c2 .ratingItem .raitingDescription {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 12px;
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.productViewer .r1 .c2 .ratingItem span {
+  width: 2px;
+  background: #f9fafb;
+  height: 22px;
+}
+
+.productViewer .inStock .r3c1 p {
+  margin: 0;
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 12px;
+  color: #008c8c;
+}
+
+.productViewer .r3c1 .inStock p {
+  margin-top: 10px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #008c8c;
+}
+.productViewer .r3c1 .inStock {
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 90px;
+  height: 35px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productViewer .r1 .c2 .r4c1 .p1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #5e5e5e;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.productViewer .r1 .c2 .r4c1 .p2 {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.productViewer .r1 .c2 .r4c1 .p2 .span1 {
+  color: #000000;
+  font-size: large;
+}
+.productViewer .r1 .c2 .r4c1 .p2 .span2 {
+  color: #008c8c;
+}
+.productViewer .r1 .c2 .r5c2 .p1,
+.productViewer .r1 .c2 .r5c1 .p1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.productViewer .r1 .c2 .r5c1 .p2 p {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+
+.productViewer .r1 .c2 .r5c1 .p2 .large {
+  color: #008c8c;
+  border: 1px solid #008c8c;
+}
+
+.productViewer .r1 .c2 .r5c2 .p2 p {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+}
+.productViewer .r1 .c2 .r5c2 .p2 .circle1 {
+  background-color: #000101;
+}
+
+.productViewer .r1 .c2 .r5c2 .p2 .circle2 {
+  background: #3d0008;
+  border: 5px solid #008c8c;
+  box-sizing: border-box;
+}
+.productViewer .r1 .c2 .r5c2 .p2 .circle3 {
+  background: #3f3f3f;
+}
+
+.productViewer .r1 .c2 .r6c1 .customSelectForm {
+  width: 120px;
+  height: 50px;
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #008c8c;
+}
+.productViewer .r1 .c2 .r6c2 {
+  width: 267px;
+  height: 51px;
+
+  background: #008c8c;
+  border-radius: 10px;
+
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.productViewer .r1 .c2 .productDetails {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.productViewer .r1 .c2 .productDetailsList li {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.productViewer .availableShop p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.productViewer .availableShop {
+  border-bottom: 1px solid #ebebeb;
+}
+.productViewer .r2 .cart .cartHeader {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #464646;
+}
+.productViewer .r2 .cart .cartPhone {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  margin-top: -13px;
+  margin-bottom: 5px;
+}
+
+.productViewer .r2 .cart .starIcon .active {
+  color: #ffec41;
+  margin-right: 2px;
+}
+.productViewer .r2 .cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.productViewer .r2 {
+  background: #f4ffff;
+  border-radius: 5px;
+}
+
+.productViewer .r2 .cart .btn1 {
+  background: rgb(0 140 140 / 90%);
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0;
+  width: 80px;
+  height: 32px;
+  margin-right: 15px;
+}
+.productViewer .r2 .cart .btn1 span {
+  vertical-align: text-bottom;
+}
+
+.productViewer .r2 .cart .btn2 {
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #008c8c;
+  background: #ffffff;
+  width: 80px;
+  height: 32px;
+}
+.productViewer .r2 .cart .btn1:focus,
+.productViewer .r2 .cart .btn2:focus {
+  outline: none;
+}
+
+.productViewer .r3 .c2r1c2 .cart .p1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: rgb(0 140 140 / 80%);
+}
+
+.productViewer .r3 .c2r1c2 .cart .p2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: rgb(142 142 142 / 50%);
+  margin-top: -10px;
+}
+
+.productViewer .r3 .c2r1c2 .cart {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.productViewer .r3 .c2r1c2 .cart .cartFlexp1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.productViewer .r3 .c2r1c2 .cart .cartFlexp2 {
+  color: #000000;
+  text-decoration: line-through;
+}
+.productViewer .r3 .c2r1c2 .cart .cartFlexp3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 14px;
+
+  color: #008c8c;
+}
+
+.productViewer .r3 .c2 {
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.productViewer .r3 .c2 .r3c2Header {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.productViewer .r3 .ratingItem {
+  background: #008c8c;
+  border-radius: 5px;
+  max-width: 100px;
+  height: 30px;
+}
+
+.productViewer .r3 .r3c1Icon {
+  color: #008c8c;
+}
+
+.productViewer .r3 .customProgressBar {
+  align-items: baseline;
+}
+.productViewer .r3 .customProgressBar div {
+  height: 7px;
+  margin-bottom: 8px;
+}
+
+.productViewer .r3 .customProgressBar .c1 {
+  background: #008c8c;
+}
+.productViewer .r3 .customProgressBar .c2 {
+  background: #f79e1b;
+}
+.productViewer .r3 .customProgressBar .c3 {
+  background: #b01842;
+}
+.productViewer .r3 .customProgressBar .c4 {
+  background: #ca5257;
+}
+.productViewer .r3 .customProgressBar .c5 {
+  background: #ff0000;
+}
+
+.productViewer .r3 .customProgressBar .fas {
+  color: #8c8c8c;
+}
+
+.productViewer .r3 .ratingList {
+  min-width: 280px;
+  margin-right: 70px;
+}
+
+.productViewer .r3 .ratingList .ratingC1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.productViewer .commentAboutProduct .header {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.productViewer .commentAboutProduct .name {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.productViewer .commentAboutProduct .tittle {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #696969;
+}
+
+.productViewer .commentAboutProduct .commentPara {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000;
+}
+
+.productViewer .commentAboutProduct .likeDisLike {
+  max-width: 120px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #555555;
+}
+
+.productViewer .commentAboutProduct .commentBox {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.productViewer .commentAboutProduct .lastCommentBox {
+  border: 0;
+} */
+
+/* from here all product loadding*/
+/* .allProductView {
+  background: #f0f0f0;
+}
+
+.allProductView .listBar li {
+  list-style: none;
+}
+
+.allProductView .listBar .Group1 {
+  width: 140px;
+}
+
+.allProductView .listBar .Group1 li:nth-child(1) {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #008c8c;
+}
+
+.allProductView .listBar .Group1 li:nth-child(3) {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333333;
+}
+
+.allProductView .listBar .Group2 {
+  width: 210px;
+}
+.allProductView .listBar .Group2 span {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #575757;
+  margin-left: 12px;
+}
+.allProductView .listBar .Group2 div {
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 5px 12px;
+}
+
+.allProductView .col-9 .homeImage div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+.allProductView .col-9 .newInListBar .inputField {
+  background: #ffffff;
+  border: 1px solid #b1b1b1;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 2px 1px 2px 10px;
+  min-width: 370px;
+}
+.allProductView .col-9 .newInListBar .inputField input {
+  border: 0;
+  width: 100%;
+}
+.allProductView .col-9 .newInListBar .inputField input:focus {
+  outline: none;
+}
+.allProductView .col-9 .newInListBar .inputField input::placeholder {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #7a7a7a;
+}
+
+.allProductView .col-9 .newInListBar div:nth-child(1) {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #000000;
+}
+
+.allProductView .col-9 .displayItems .cart .p1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: rgb(0 140 140 / 80%);
+}
+
+.allProductView .col-9 .displayItems .cart .p2 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: rgb(142 142 142 / 50%);
+  margin-top: -10px;
+}
+
+.allProductView .col-9 .displayItems .cart {
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.allProductView .col-9 .displayItems .cart .cartFlexp1 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #000000;
+}
+
+.allProductView .col-9 .displayItems .cart .cartFlexp2 {
+  color: #000000;
+  text-decoration: line-through;
+  font-size: 9px;
+}
+.allProductView .col-9 .displayItems .cart .cartFlexp3 {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #008c8c;
+}
+
+.allProductView .col-9 .displayItems .cart button {
+  width: 140px;
+  height: 33px;
+
+  border: 1px solid #008c8c;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.allProductView .col-9 .displayItems .cart button:focus {
+  outline: none;
+}
+
+.allProductView .col-9 .pagingList div {
+  width: 40px;
+  text-align: center;
+  align-items: baseline;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.allProductView .col-9 .pagingList div:nth-child(2) {
+  border: 1px solid #008c8c;
+}
+
+.allProductView .col-9 .pagingList {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.allProductView .col-3 .categories li {
+  list-style: none;
+}
+
+.allProductView .col-3 .categories span {
+  vertical-align: middle;
+  margin-left: 10px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #303030;
+}
+.allProductView .col-3 .body {
+  background: #ffffff;
+  height: 600px;
+  position: sticky;
+}
+
+.allProductView .col-3 .body .header {
+  font-family: Exo 2;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #008c8c;
+}
+
+.allProductView .col-3 .body .emergencyCall {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #008c8c;
+  position: absolute;
+  bottom: 150px;
+  left: 50px;
+}
+
+.allProductView .col-3 .body .emergencyCall span {
+  vertical-align: middle;
+  margin-left: 15px;
+} */
+
+.collupaseList .categories span {
+  vertical-align: middle;
+  margin-left: 10px;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #303030;
+}
+
+.collupaseList .categories .collapse li {
+  font-family: " Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  color: #5b5b5b;
+}
+
+.footerBase {
+  background-color: #008c8c;
+}
+
+/* .footerContainer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+} */
+
+.footerContent {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.copy-write {
+  margin-top: 20px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #484848;
+}
+
+.footer-header {
+  color: white;
+  font-size: 24px;
+}
+
+.icon-display {
+  display: flex;
+}
+
+/* Footer*/
+
+.footer-list {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(255 255 255 / 70%);
+  text-decoration: none;
+}
+.footer-list:hover {
+  color: white;
+}
+.footer-last-row-text {
+  margin-top: 100px;
+  margin-bottom: 8px;
+  text-align: center;
+
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(255 255 255 / 70%);
+}
+
+/* upload img  */
+
+/* .upload-img-label {
+  width: 100%;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  background: transparent !important;
+}
+
+.upload-img-label:hover {
+  cursor: pointer;
+} */
+
+.navBar li:hover {
+  color: #005c5c !important;
+}

@@ -1,0 +1,29 @@
+{address.map((box) => (
+    <div
+      className="p-3 me-3 address-box-1"
+      onClick={() => setActive(box)}
+    >
+      <div className="d-flex justify-content-between align-items-baseline address-box-header">
+        <p className="address-box-name">
+          {box.f_name + box.l_name}
+        </p>
+        <img
+          src="/Image/OrderPaymentDelevery details/editIcon.png"
+          alt=""
+        />
+      </div>
+      <div className="address-box-address">
+        <p>{box.f_address + box.city + box.post_code}</p>
+        <p>Phone:{box.phone}</p>
+      </div>
+      {active === box ? (
+        <div className="d-flex">
+          <img
+            className="ms-auto"
+            src="/Image/OrderPaymentDelevery details/tik mark.png"
+            alt=""
+          />
+        </div>
+      ) : null}
+    </div>
+  ))}

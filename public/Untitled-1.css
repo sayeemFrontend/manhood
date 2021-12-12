@@ -1,0 +1,87 @@
+return (
+  <div ="customFormContainer">
+    <div ="text-center addNewAddressHeader ">
+      <p>Add new Address</p>
+    </div>
+
+    <div ="d-flex justify-content-between">
+      <div>
+        <input
+          value={this.state.newAdd.f_name}
+          type="text"
+          ="form-control customInputField"
+          id="f_name"
+          placeholder=""
+          //   name="f_name"
+          onChange={handleChange}
+        />
+        <label for="firstName">First Name</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          ="form-control customInputField"
+          id="l_name"
+          placeholder=""
+          //   name="l_name"
+          onChange={handleChange}
+          value={this.state.newAdd.l_name}
+        />
+        <label for="lastName">last Name</label>
+      </div>
+    </div>
+
+    <div ="my-3 d-flex justify-content-between">
+      <div>
+        <input
+          type="text"
+          ="form-control customInputField"
+          id="city"
+          placeholder=" "
+        />
+        <label for="city">City</label>
+      </div>
+      <div>
+        <input
+          type="text"
+          ="form-control customInputField"
+          id="postCode"
+          placeholder=" "
+        />
+        <label for="postCode">Post Code</label>
+      </div>
+    </div>
+
+    <div>
+      <input
+        type="text"
+        ="form-control customInputField"
+        id="fullAddress"
+        placeholder=" "
+      />
+      <label for="fullAddress">Full address</label>
+    </div>
+    <div ="my-3">
+      <input
+        type="text"
+        =" form-control customInputField"
+        id="email"
+        placeholder=" "
+      />
+      <label for="email">Email</label>
+    </div>
+    <div>
+      <input
+        type="text"
+        ="form-control customInputField"
+        id="phoneNumber"
+        placeholder=" "
+      />
+      <label for="phoneNumber">Phone Number</label>
+    </div>
+    <div ="addAddessBtn pb-5">
+      <button>Add</button>
+    </div>
+  </div>
+);
+

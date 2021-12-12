@@ -1,0 +1,127 @@
+.order-place-body {
+  background-color: #efefef;
+}
+.order-place-page {
+  margin-top: 32px;
+  margin-left: 39px;
+}
+.custom-order-table {
+  background-color: #fff;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.table-header-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+  margin-left: 5px;
+  margin-top: 36px;
+}
+
+.order-title {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.custom-1row-2col {
+  vertical-align: middle;
+}
+
+.list-group-item.borderless {
+  border: none !important;
+  font-family: "Exo 2";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4a4a4a;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.list-group-border {
+  border: 1px solid #4a4a4a1f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 85px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.list-group-item.borderless-2nd {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  border: 0;
+  padding: 6px;
+}
+
+.order-amount {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #141414;
+}
+.order-remove {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: white;
+  border-color: white;
+
+  color: #b60000;
+}
+
+.order-remove:focus,
+.order-remove:hover,
+.order-remove:active,
+.order-remove:active:focus {
+  background-color: white;
+  border-color: white;
+  box-shadow: none;
+  color: #b60000;
+  border-color: white;
+}
+.custom-header {
+  background: #d2ffff;
+  border-radius: 10px;
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 50px;
+  margin-top: 13px;
+}
+.custom-header-position {
+  padding-left: 13px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 40px;
+}
+.table-3rd-col {
+  text-align: center;
+  vertical-align: middle;
+}

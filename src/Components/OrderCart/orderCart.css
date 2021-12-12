@@ -1,0 +1,67 @@
+.orderCartOn {
+  background-color: rgb(169 169 169 / 50%);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.orderCartOff {
+  display: none;
+}
+
+.cartContainer {
+  height: 100%;
+  background: white;
+  position: relative;
+  max-width: 400px;
+  float: right;
+  box-shadow: 2px 4px 50px;
+  border-radius: 5px;
+}
+
+.cartContainer .itemContainer {
+  height: 420px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-left: 10px;
+  padding-right: 14px;
+}
+.cartContainer .cartItem .cartItemList {
+  border-bottom: 1px solid rgb(0 0 0 / 20%);
+  padding-bottom: 10px;
+}
+.cartContainer .cartItem .itemName p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0px;
+}
+
+.cartContainer .checkOutButton {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+}
+
+.cartContainer .checkOutButton p {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.cartContainer .checkOutButton button {
+  background: #008c8c;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  width: 100%;
+  height: 55px;
+}
+.cartContainer .checkOutButton button:focus {
+  outline: none;
+}
